@@ -10,6 +10,16 @@ import XCTest
 
 final class ArithmaticOperationTDDTests: XCTestCase {
     
-    
+    let maths = MathsModel()
+
+    func testAdd(){
+        let number1 = 10
+        let number2 = 20
+        let expected = 30
+        
+        let result = maths.add(number1: number1, number2: number2)
+        
+        XCTAssertEqual(expected, result)
+    }
     
 }
