@@ -42,4 +42,13 @@ final class ArithmaticOperationTDDTests: XCTestCase {
         XCTAssertEqual(expected, result)
     }
     
+    func testDivide(){
+            let number1 = 20
+            let number2 = 10
+            let expected = 2
+            
+            let result = maths.divide(number1: number1, number2: number2)
+            
+            XCTAssertEqual(expected, result)
+        }
 }
