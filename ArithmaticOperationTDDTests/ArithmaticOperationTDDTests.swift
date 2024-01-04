@@ -31,6 +31,15 @@ final class ArithmaticOperationTDDTests: XCTestCase {
         
         XCTAssertEqual(expected, result)
     }
-
+    
+    func testMultiplication(){
+        let number1 = 20
+        let number2 = 10
+        let expected = 200
+        
+        let result = maths.multiplication(number1: number1, number2: number2)
+        
+        XCTAssertEqual(expected, result)
+    }
     
 }

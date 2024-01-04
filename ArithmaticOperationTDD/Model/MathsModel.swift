@@ -19,4 +19,10 @@ class MathsModel{
         return result
     }
     
+    func multiplication(number1: Int, number2: Int) -> Int{
+        let result = number1 * number2
+        return result
+    }
+    
+    
 }
