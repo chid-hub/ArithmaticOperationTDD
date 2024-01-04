@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6E6DDEC2B468A9500BA709F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DDEB2B468A9500BA709F /* AppDelegate.swift */; };
+		E6E6DDEE2B468A9500BA709F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DDED2B468A9500BA709F /* SceneDelegate.swift */; };
+		E6E6DDF02B468A9500BA709F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DDEF2B468A9500BA709F /* ViewController.swift */; };
+		E6E6DDF32B468A9500BA709F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E6DDF12B468A9500BA709F /* Main.storyboard */; };
+		E6E6DDF52B468A9600BA709F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E6DDF42B468A9600BA709F /* Assets.xcassets */; };
+		E6E6DDF82B468A9600BA709F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E6DDF62B468A9600BA709F /* LaunchScreen.storyboard */; };
+		E6E6DE032B468A9600BA709F /* ArithmaticOperationTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DE022B468A9600BA709F /* ArithmaticOperationTDDTests.swift */; };
+		E6E6DE0D2B468A9600BA709F /* ArithmaticOperationTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DE0C2B468A9600BA709F /* ArithmaticOperationTDDUITests.swift */; };
+		E6E6DE0F2B468A9600BA709F /* ArithmaticOperationTDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DE0E2B468A9600BA709F /* ArithmaticOperationTDDUITestsLaunchTests.swift */; };
+		E6E6DE202B468C8C00BA709F /* MathsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6DE1F2B468C8C00BA709F /* MathsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6E6DDFF2B468A9600BA709F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E6DDE02B468A9400BA709F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E6DDE72B468A9400BA709F;
+			remoteInfo = ArithmaticOperationTDD;
+		};
+		E6E6DE092B468A9600BA709F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E6DDE02B468A9400BA709F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E6DDE72B468A9400BA709F;
+			remoteInfo = ArithmaticOperationTDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6E6DDE82B468A9400BA709F /* ArithmaticOperationTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmaticOperationTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E6DDEB2B468A9500BA709F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6E6DDED2B468A9500BA709F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6E6DDEF2B468A9500BA709F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6E6DDF22B468A9500BA709F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6E6DDF42B468A9600BA709F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E6DDF72B468A9600BA709F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6E6DDF92B468A9600BA709F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E6DDFE2B468A9600BA709F /* ArithmaticOperationTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmaticOperationTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E6DE022B468A9600BA709F /* ArithmaticOperationTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmaticOperationTDDTests.swift; sourceTree = "<group>"; };
+		E6E6DE082B468A9600BA709F /* ArithmaticOperationTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmaticOperationTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E6DE0C2B468A9600BA709F /* ArithmaticOperationTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmaticOperationTDDUITests.swift; sourceTree = "<group>"; };
+		E6E6DE0E2B468A9600BA709F /* ArithmaticOperationTDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmaticOperationTDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6E6DE1F2B468C8C00BA709F /* MathsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E6DDE52B468A9400BA709F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DDFB2B468A9600BA709F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DE052B468A9600BA709F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E6DDDF2B468A9400BA709F = {
+			isa = PBXGroup;
+			children = (
+				E6E6DDEA2B468A9400BA709F /* ArithmaticOperationTDD */,
+				E6E6DE012B468A9600BA709F /* ArithmaticOperationTDDTests */,
+				E6E6DE0B2B468A9600BA709F /* ArithmaticOperationTDDUITests */,
+				E6E6DDE92B468A9400BA709F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E6DDE92B468A9400BA709F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DDE82B468A9400BA709F /* ArithmaticOperationTDD.app */,
+				E6E6DDFE2B468A9600BA709F /* ArithmaticOperationTDDTests.xctest */,
+				E6E6DE082B468A9600BA709F /* ArithmaticOperationTDDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E6DDEA2B468A9400BA709F /* ArithmaticOperationTDD */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DE1B2B468B8D00BA709F /* App */,
+				E6E6DE1D2B468BA700BA709F /* View */,
+				E6E6DE1C2B468B9800BA709F /* Storyboard */,
+				E6E6DDF92B468A9600BA709F /* Info.plist */,
+				E6E6DE1E2B468BB200BA709F /* Model */,
+			);
+			path = ArithmaticOperationTDD;
+			sourceTree = "<group>";
+		};
+		E6E6DE012B468A9600BA709F /* ArithmaticOperationTDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DE022B468A9600BA709F /* ArithmaticOperationTDDTests.swift */,
+			);
+			path = ArithmaticOperationTDDTests;
+			sourceTree = "<group>";
+		};
+		E6E6DE0B2B468A9600BA709F /* ArithmaticOperationTDDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DE0C2B468A9600BA709F /* ArithmaticOperationTDDUITests.swift */,
+				E6E6DE0E2B468A9600BA709F /* ArithmaticOperationTDDUITestsLaunchTests.swift */,
+			);
+			path = ArithmaticOperationTDDUITests;
+			sourceTree = "<group>";
+		};
+		E6E6DE1B2B468B8D00BA709F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DDEB2B468A9500BA709F /* AppDelegate.swift */,
+				E6E6DDED2B468A9500BA709F /* SceneDelegate.swift */,
+				E6E6DDF42B468A9600BA709F /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E6E6DE1C2B468B9800BA709F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DDF12B468A9500BA709F /* Main.storyboard */,
+				E6E6DDF62B468A9600BA709F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E6E6DE1D2B468BA700BA709F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DDEF2B468A9500BA709F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6E6DE1E2B468BB200BA709F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6E6DE1F2B468C8C00BA709F /* MathsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E6DDE72B468A9400BA709F /* ArithmaticOperationTDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E6DE122B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDD" */;
+			buildPhases = (
+				E6E6DDE42B468A9400BA709F /* Sources */,
+				E6E6DDE52B468A9400BA709F /* Frameworks */,
+				E6E6DDE62B468A9400BA709F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArithmaticOperationTDD;
+			productName = ArithmaticOperationTDD;
+			productReference = E6E6DDE82B468A9400BA709F /* ArithmaticOperationTDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E6DDFD2B468A9600BA709F /* ArithmaticOperationTDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E6DE152B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDDTests" */;
+			buildPhases = (
+				E6E6DDFA2B468A9600BA709F /* Sources */,
+				E6E6DDFB2B468A9600BA709F /* Frameworks */,
+				E6E6DDFC2B468A9600BA709F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E6DE002B468A9600BA709F /* PBXTargetDependency */,
+			);
+			name = ArithmaticOperationTDDTests;
+			productName = ArithmaticOperationTDDTests;
+			productReference = E6E6DDFE2B468A9600BA709F /* ArithmaticOperationTDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E6DE072B468A9600BA709F /* ArithmaticOperationTDDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E6DE182B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDDUITests" */;
+			buildPhases = (
+				E6E6DE042B468A9600BA709F /* Sources */,
+				E6E6DE052B468A9600BA709F /* Frameworks */,
+				E6E6DE062B468A9600BA709F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E6DE0A2B468A9600BA709F /* PBXTargetDependency */,
+			);
+			name = ArithmaticOperationTDDUITests;
+			productName = ArithmaticOperationTDDUITests;
+			productReference = E6E6DE082B468A9600BA709F /* ArithmaticOperationTDDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E6DDE02B468A9400BA709F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E6E6DDE72B468A9400BA709F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E6E6DDFD2B468A9600BA709F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E6E6DDE72B468A9400BA709F;
+					};
+					E6E6DE072B468A9600BA709F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E6E6DDE72B468A9400BA709F;
+					};
+				};
+			};
+			buildConfigurationList = E6E6DDE32B468A9400BA709F /* Build configuration list for PBXProject "ArithmaticOperationTDD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E6DDDF2B468A9400BA709F;
+			productRefGroup = E6E6DDE92B468A9400BA709F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E6DDE72B468A9400BA709F /* ArithmaticOperationTDD */,
+				E6E6DDFD2B468A9600BA709F /* ArithmaticOperationTDDTests */,
+				E6E6DE072B468A9600BA709F /* ArithmaticOperationTDDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E6DDE62B468A9400BA709F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E6DDF82B468A9600BA709F /* LaunchScreen.storyboard in Resources */,
+				E6E6DDF52B468A9600BA709F /* Assets.xcassets in Resources */,
+				E6E6DDF32B468A9500BA709F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DDFC2B468A9600BA709F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DE062B468A9600BA709F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E6DDE42B468A9400BA709F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E6DDF02B468A9500BA709F /* ViewController.swift in Sources */,
+				E6E6DE202B468C8C00BA709F /* MathsModel.swift in Sources */,
+				E6E6DDEC2B468A9500BA709F /* AppDelegate.swift in Sources */,
+				E6E6DDEE2B468A9500BA709F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DDFA2B468A9600BA709F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E6DE032B468A9600BA709F /* ArithmaticOperationTDDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E6DE042B468A9600BA709F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E6DE0D2B468A9600BA709F /* ArithmaticOperationTDDUITests.swift in Sources */,
+				E6E6DE0F2B468A9600BA709F /* ArithmaticOperationTDDUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E6DE002B468A9600BA709F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E6DDE72B468A9400BA709F /* ArithmaticOperationTDD */;
+			targetProxy = E6E6DDFF2B468A9600BA709F /* PBXContainerItemProxy */;
+		};
+		E6E6DE0A2B468A9600BA709F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E6DDE72B468A9400BA709F /* ArithmaticOperationTDD */;
+			targetProxy = E6E6DE092B468A9600BA709F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6E6DDF12B468A9500BA709F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E6DDF22B468A9500BA709F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6E6DDF62B468A9600BA709F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E6DDF72B468A9600BA709F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E6DE102B468A9600BA709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6E6DE112B468A9600BA709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E6DE132B468A9600BA709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArithmaticOperationTDD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E6DE142B468A9600BA709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArithmaticOperationTDD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6E6DE162B468A9600BA709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArithmaticOperationTDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArithmaticOperationTDD";
+			};
+			name = Debug;
+		};
+		E6E6DE172B468A9600BA709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArithmaticOperationTDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArithmaticOperationTDD";
+			};
+			name = Release;
+		};
+		E6E6DE192B468A9600BA709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArithmaticOperationTDD;
+			};
+			name = Debug;
+		};
+		E6E6DE1A2B468A9600BA709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcs.ArithmaticOperationTDDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArithmaticOperationTDD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E6DDE32B468A9400BA709F /* Build configuration list for PBXProject "ArithmaticOperationTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E6DE102B468A9600BA709F /* Debug */,
+				E6E6DE112B468A9600BA709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E6DE122B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E6DE132B468A9600BA709F /* Debug */,
+				E6E6DE142B468A9600BA709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E6DE152B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E6DE162B468A9600BA709F /* Debug */,
+				E6E6DE172B468A9600BA709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E6DE182B468A9600BA709F /* Build configuration list for PBXNativeTarget "ArithmaticOperationTDDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E6DE192B468A9600BA709F /* Debug */,
+				E6E6DE1A2B468A9600BA709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E6DDE02B468A9400BA709F /* Project object */;
+}
