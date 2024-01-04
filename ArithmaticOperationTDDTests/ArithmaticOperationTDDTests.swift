@@ -22,4 +22,15 @@ final class ArithmaticOperationTDDTests: XCTestCase {
         XCTAssertEqual(expected, result)
     }
     
+    func testSubtraction(){
+        let number1 = 20
+        let number2 = 10
+        let expected = 10
+        
+        let result = maths.subtraction(number1: number1, number2: number2)
+        
+        XCTAssertEqual(expected, result)
+    }
+
+    
 }

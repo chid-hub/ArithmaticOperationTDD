@@ -10,9 +10,13 @@ import Foundation
 class MathsModel{
     
     func add(number1: Int, number2: Int) -> Int{
-            let result = number1 + number2
-            return result
-        }
-
-
+        let result = number1 + number2
+        return result
+    }
+    
+    func subtraction(number1: Int, number2: Int) -> Int{
+        let result = number1 - number2
+        return result
+    }
+    
 }
